@@ -11,11 +11,11 @@
     let menssage 
     // Check if age is less than 18 and greater than 0
    if(age < 18 && age >0){
-    menssage="Eres menos de edad"
+    menssage="Eres menor de edad. ¡Sigue aprendiendo y disfrutando del código!"
    }
   // Check if age is 18 or older
    else if(age >=18 ){
-    menssage="Eres mayor de edad"
+    menssage="Eres mayor de edad¡Prepárate para grandes oportunidades en el mundo de la programación!"
    }
    // If age is not a valid value
    else{menssage="Por favor ingrese un valor valido"}
