@@ -4,6 +4,7 @@
 A simple web application that lets users enter their name and age, then displays a message indicating if they are a minor or an adult.
 
 ## Files
+- **Entrenamiento-M3-S1**
 
 - **index.html**  
   Main structure with a form for name, age, and calculate button.
