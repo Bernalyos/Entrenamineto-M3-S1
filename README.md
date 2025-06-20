@@ -24,13 +24,12 @@ A simple web application that lets users enter their name and age, then displays
 - Responsive design for mobile and tablets.
 - Styled inputs and buttons for better user experience.
 
+
 ## How to Use
 
-1. Open `index.html` in a modern browser.
-2. Enter your name in the input field.
-3. Enter your age.
-4. Click "CALCULATE".
-5. See the resulting message.
+1. Clone the repository:
+   ```bash
+  git clone https://github.com/Bernalyos/Entrenamineto-M3-S1.git
 
 ## Suggested Improvements
 
