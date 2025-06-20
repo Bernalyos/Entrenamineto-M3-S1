@@ -3,33 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive system to calculate your age and show messages based on it.">
+    <meta name="keywords" content="age calculator, interactive system, JavaScript, HTML, user input">
+    <meta name="author" content="Yoshira Barros Bernal">
+    <meta name="sitedomain" content="https://github.com/Bernalyos">
+    <meta name="organization" content="bernalyos">
+    <meta name="designer" content="Yoshira">
+    <meta name="copyright" content="© 2025 bernalyos. All rights reserved">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="15days">
+    <meta name="theme-color" content="#ffffff">
+      <!-- Link to external CSS -->
     <link rel="stylesheet" href="src/css/styl.css">
+     <!-- Page title -->
     <title>sistema-interactivo</title>
 </head>
 <body>
-    <header></header>
-    <main>
+     <!-- Page header with main title -->
+    <header>
         <h1>Sistema interativo</h1>
-
+    </header>
+    <!-- Main content area -->
+    <main>
+         <!-- Section for age calculation form -->
+        <section id="calcular-edad">
+        
         <label for="name">Enter your name:</label>
-        <input type="number" id="weight" placeholder="kg" />
-    
+        <input type="text" id="name" />
         <label for="age">Enter the age:</label>
-        <input type="number" id="height" placeholder="cm" step="0.01" />
-    
-        <button onclick="calculateage()">Calculate</button>
-    
+        <input type="number" id="age" />
+        <button id="boton"> CALCULAR </button>
+    <!-- Area to display results -->
         <div id="result"></div>
-      
+
+    </section>
+      <!-- JavaScript file for main logic -->
       <script src="/src/js/main.js"></script>
       
     </main>
-    <footer>
+
+    <!-- Footer with copyright and contact info -->
+    <footer id="derechos">
         <p>&copy;2025 my web derechos reservados</p>
         <p>Contacto:</p>
         <a href="mailto:barrosyoshira@gmail.com"> barrosyoshira@gmail.com</a>
     </footer>
 
-    <script src="src/JS/java.js"></script>s
+    <script src="src/JS/java.js"></script>
 </body>
 </html>
