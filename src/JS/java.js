@@ -20,6 +20,6 @@
    // If age is not a valid value
    else{menssage="Por favor ingrese un valor valido"}
   // Display the greeting message with the name and the age message
-   result.textContent='Hola' +name + menssage
+   result.textContent='Hola ' +name + menssage
   
   })

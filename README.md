@@ -38,3 +38,6 @@ A simple web application that lets users enter their name and age, then displays
 - Handle errors for empty or invalid fields.
 - Add animations and extra styling.
 - Improve footer integration so it stays at the bottom without overlap.
+
+## lINK TO ACCESS THE PAGE 
+- https://bernalyos.github.io/Entrenamineto-M3-S1/
