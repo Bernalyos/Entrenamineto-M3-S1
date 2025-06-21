@@ -61,10 +61,18 @@ button {
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
+    
 }
+#result{
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  padding: 50px;
 
+}
 /* Footer styles */
-
 footer {
   position: fixed;
   bottom: 0;
@@ -73,7 +81,7 @@ footer {
   background-color: rgb(60, 76, 167);
   color: white;
   text-align: center;
-  padding: 5px;
+  padding: 1px;
 }
 
 /* Media query: larger screens with minimum height 600px */
@@ -112,7 +120,11 @@ footer {
     footer {
       padding: 20px;
     }
+    #resultado {
+      font-size: 17px;
+    }
   }
+
   
 /* Cell phones: screens smaller than or equal 480px */
   @media screen and (max-width: 480px) {
